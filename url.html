@@ -1,0 +1,26 @@
+<!--
+    <input type= "url"/>
+
+    - espera que o usuário digite uma url
+    - irá validar se o valor digitado é uma url
+
+    * spellcheck
+    - habilitar a verificação otográfica para este input
+
+-->
+
+<datalist id="urlsdata">
+    <option>http://meusite.com.br</option>
+    <option>https://meusitei.com.br</option>
+</datalist>
+<form action="">
+    <input type="url"
+    placeholder="http://example.com.br"
+    pattern=".*\.com\.br.*"
+    title="Somente domínios com.br serão aceitos"
+   required
+   list="urlsdata"
+    >
+
+    <button type="submit">Enviar</button>
+</form>

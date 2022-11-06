@@ -1,0 +1,171 @@
+:root {
+    --roxo-fraco: #996dff;
+    --roxo-forte: #8257e5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121214;
+    font-family: sans-serif;
+}
+
+.navbar {
+    padding: 16px;
+    background-color: #202024;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #babac1;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.navbar a.ativo {
+    color: white;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--roxo-fraco);
+    font-weight: 600;
+}
+
+div.titulo {
+    color: white;
+    display: flex;
+    margin: 48px;
+    align-items: center;
+}
+
+div.texto {
+    padding-left: 32px;
+    flex: 1;
+}
+
+div.texto p,
+.projeto-titulo h1 {
+    padding-bottom: 8px;
+}
+
+div.projeto {
+    color: white;
+    background: linear-gradient(to left, rgb(45, 38, 74), rgb(32, 32, 36));
+    margin: 40px;
+    margin-bottom: 8px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+
+}
+
+div.projeto a {
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+div.projeto a:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #8257e5;
+    transition: background-color .3s;
+}
+
+div.conteudos {
+    display: flex;
+    color: white;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin: 0 40px;
+    margin-bottom: 32px;
+
+}
+
+div.conteudos .conteudo-item {
+    background: #202024;
+    width: 50%;
+}
+
+div.conteudo-item .conteudo {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+div.meuperfilconteudo-corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+div.meuperfilconteudo-corpo button {
+    background-color: var(--roxo-forte);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 8px;
+    font-weight: bold;
+
+}
+div.meuperfilconteudo-corpo button:hover{
+    background-color: var(--roxo-fraco);
+}
+
+div.meuperfil footer {
+    padding: 32px;
+}
+div.conteudos hr {
+    border-color: #121214;
+    margin-top: auto;
+}
+
+div.nome-abreviado-usuario {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    background: var(--roxo-forte);
+
+    border: 2px solid #303036;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 16px;
+}
+
+.curso>.conteudo>div {
+    padding-right: 8px;
+    height: 80px;
+    padding: 20px;
+    margin: 16px;
+}
+
+.curso footer {
+    text-align: center;
+    padding: 32px 0 16px;
+    margin: 16px;
+}
+
+div.curso button{
+    background-color: #303036;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+div.curso button:hover {
+    background-color: #4f4f51;
+    transition: background-color .3s;
+}

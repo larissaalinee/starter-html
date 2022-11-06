@@ -1,0 +1,22 @@
+<!--
+    <input> atributos comuns:
+
+    - autocomplete (vai buscar dados que uso com frequencia)
+    - autofocus (só um por página)
+    - disabled (deixar desabilitado)
+    - readonly(mesma coisa do disabled, só muda visual)
+    - value
+    - form(linkar o input com o formulário, caso o form esteja fora)
+    - name
+    - required (para campos obrigatórios de preencher)
+    - placeholder (campo de password, search,tel, text, url)
+    obs: não trocar o label pelo placeholder, 
+    pois o label consegue ler o que pede para preencher, isso é
+    acessibilidade..
+-->
+
+<form id="meu-form"></form>
+
+<input name="email" type="email" 
+form="meu-form">
+

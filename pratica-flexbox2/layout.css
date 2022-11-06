@@ -1,0 +1,216 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+div,
+span,
+button,
+a {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Fira Sans", Arial, sans-serif;
+    color: #222222;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 360px;
+    aspect-ratio: auto 360 / 520px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Menu*/
+
+.menu a {
+    color: black;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.menu-logo a {
+    font-size: 2.75em;
+    font-weight: 900;
+
+}
+
+.menu-nav ul {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.menu-nav a {
+    font-size: 1.15em;
+    padding: 10px 20px;
+}
+
+/*introducao*/
+
+.introducao {
+    width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.localizacao h1 {
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* CARGOS */
+.cargos {
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.cargos>h2 {
+    color: #e0e0e0;
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    display: block;
+    max-width: 4ch;
+}
+
+.cargos p.descricao {
+    margin-bottom: 60px;
+    max-width: 40ch;
+    font-size: 1.5rem;
+    line-height: 1.33;
+}
+
+
+.card>span {
+    position: absolute;
+    top: 22px;
+    left: -100px;
+    text-align: end;
+    width: 80px;
+}
+
+.card::before {
+    content: ' ';
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    top: 20px;
+    left: -4px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #f5f5f5;
+    padding: 20px;
+    margin: 0px 0px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+    gap: 10px 20px;
+}
+
+.card h2 {
+    font: 18px;
+}
+
+.card p {
+    font: 14px;
+    color: #525252;
+}
+
+.card .habilidades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .habilidades span {
+    padding: 8px 16px;
+    font-size: .875rem;
+    background-color: white;
+    margin: 4px;
+}
+
+.formacao {
+    background: #141414;
+
+}
+
+.formacao-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.formacao h1 {
+word-break: break-all;
+font-size: 8rem;
+line-height: 1;
+text-transform: uppercase;
+display: block;
+max-width: 5ch;
+color: #000;
+}
+
+
+.formacao>p {
+    color: white;
+    display: grid;
+    color: #a3a3a3;
+    font: 20px;
+    max-width: 1200px;
+    position: relative;
+    margin: 0px auto;
+        
+    
+}
+
+.formacao strong {
+    color: white;
+}
